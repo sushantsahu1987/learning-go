@@ -67,6 +67,10 @@
 						"value": "application/json"
 					}
 				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"1\",\n    \"title\": \"Learning Golang\",\n    \"author\": \"Sushant Sahu\"\n}"
+				},
 				"url": {
 					"raw": "http://localhost:8080/posts",
 					"protocol": "http",
@@ -92,6 +96,10 @@
 						"value": "application/json"
 					}
 				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"6\",\n    \"title\": \"Learning R\",\n    \"author\": \"Sushant Sahu\"\n}"
+				},
 				"url": {
 					"raw": "http://localhost:8080/posts",
 					"protocol": "http",
